@@ -1,0 +1,37 @@
+{
+  "name": "mf-tool",
+  "version": "1.0.0",
+  "main": "mfScript.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/mfScript.js",
+    "start:dev": "ts-node mfScript.ts"
+  },
+  "keywords": [
+    "mutual fund",
+    "mutual funds india",
+    "indian mutual fund",
+    "mfapi",
+    "mfapi.in",
+    "mutual fund nav",
+    "mf nav",
+    "mutual fund data",
+    "investment",
+    "finance",
+    "personal finance",
+    "node.js mutual fund",
+    "typescript mutual fund",
+    "api client",
+    "sip",
+    "portfolio"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Easily fetch Indian Mutual Fund data like NAV, scheme info, and historical records through a simple Node.js API client",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
